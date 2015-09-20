@@ -16,7 +16,7 @@
 import processing.pdf.*;        // library for PDF export
 import geomerative.*;           // library for text manipulation and point extraction
 
-float nextPointSpeed = 0.30;    // speed at which the sketch cycles through the points
+float nextPointSpeed = 0.25;    // speed at which the sketch cycles through the points
 boolean saveOneFrame = false;   // variable used to save a single frame as a PDF page
 RShape shape;                   // holds the base shape created from the text
 RPoint[][] allPaths;            // holds the extracted points
